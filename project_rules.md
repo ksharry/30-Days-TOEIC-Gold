@@ -7,11 +7,11 @@
 # 資料結構 (Directory Structure)
 ```
 toeic-30days/
-  day01/
-    README.md
-    pic/
-    notes/
-    log.md
+  day01/  
+    README.md  教學＋當天策略
+    pic/ 
+    notes/   錯題本、同義替換、單字例句
+    log.md   成績紀錄（正確率、耗時、錯因統計）
   day02/...
   weekly-tests/
     week1.md
