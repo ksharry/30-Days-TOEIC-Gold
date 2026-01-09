@@ -25,23 +25,6 @@ TOEIC 考試不僅考英文，更考「專注力」與「體力」。
 4.  **推論 (Inference)**：看懂字面意思，但選不出隱含意。
 5.  **粗心 (Careless)**：看錯題意、畫錯卡。
 
-### 2.3 練習迴圈圖 (Learning Flow)
-```mermaid
-sequenceDiagram
-    participant User as 使用者 (You)
-    participant Timer as 計時器 (Timer)
-    participant MockTest as 模擬考 (Mock Test)
-    participant Score as 算分 (Scoring)
-    participant Analysis as 弱點分析 (Analysis)
-
-    Note over User: 1. 全真模考
-    User->>Timer: Set 120 mins
-    Timer->>MockTest: Start Listening (45m)
-    MockTest->>MockTest: Start Reading (75m)
-    MockTest->>Score: 批改分數
-    Score->>Analysis: 統計各 Part 錯誤率
-    Analysis->>User: 決定 Week 1 加強重點
-```
 
 ## 3. 實作步驟 (Implementation)
 

@@ -38,24 +38,6 @@ toeic-30days/
 ### 2.2 [觀念名稱 2] (Example: 定位線索 Keyword Scanning)
 (解釋：人名/日期/金額/地點/部門/附件 等)
 
-### 2.3 練習迴圈圖 (Learning Flow)
-```mermaid
-sequenceDiagram
-    participant User as 使用者 (You)
-    participant Timer as 計時器 (Timer)
-    participant Practice as 題目練習 (Practice)
-    participant Check as 對答案 (Answer Key)
-    participant ErrorLog as 錯題本 (Error Log)
-    participant Review as 間隔複習 (Review)
-
-    Note over User: 1. 開始限時練習
-    User->>Timer: Start
-    Timer->>Practice: 計時作答
-    Practice->>Check: 對答案
-    Check->>ErrorLog: 記錄錯因與修正策略
-    ErrorLog->>Review: D+1 / D+3 / D+7 回收
-```
-
 ## 3. 實作步驟 (Implementation)
 
 ### 步驟 1: 今日時間配置 (Time Box)
